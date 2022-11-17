@@ -18,3 +18,8 @@ python python voertuigen/main.py
 ```
 pytest -vv
 ```
+
+## Design decisions
+I am using pandas for data processing
+The output is a cvs files
+The processing logic decopeled from reading/writing data functions (see processor.py)
